@@ -16,7 +16,7 @@ apiVersion: compute.cnrm.cloud.google.com/v1beta1
 kind: ComputeNetwork
 metadata:
   name: network-mc-1
-  namespace: gke
+  namespace: gke-2
 spec:
   routingMode: REGIONAL
   autoCreateSubnetworks: false
