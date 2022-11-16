@@ -15,7 +15,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: gamestore
+  name: gke
   annotations:
     cnrm.cloud.google.com/project-id: raniamoh-playground
 # [END anthosconfig_config_sync_quickstart_monorepo_root_gamestore_namespace]
