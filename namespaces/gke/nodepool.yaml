@@ -15,6 +15,7 @@
 apiVersion: container.cnrm.cloud.google.com/v1beta1
 kind: ContainerNodePool
 metadata:
+  namespace: gke
   labels:
     label-one: "value-one"
   name: containernodepool-sample-basic

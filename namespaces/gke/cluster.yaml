@@ -16,6 +16,7 @@
   kind: ContainerCluster
   metadata:
     name:  gke-with-gpu
+    namespace: gke
     annotations:
       cnrm.cloud.google.com/remove-default-node-pool: "true"
   spec:
